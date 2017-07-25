@@ -14,7 +14,14 @@ php -S localhost:8000
 
 ## Böngészőben indítás
 
+Jogosult a videó megtekintésére:
+
 ```
-Jogosult a videó megtekintésére: http://localhost:8000/?v=sample-1
-Nem jogosult a videó megtekintésére: http://localhost:8000/?v=sample-2
+http://localhost:8000/?v=sample-1
+```
+
+Nem jogosult a videó megtekintésére:
+
+```
+http://localhost:8000/?v=sample-2
 ```
